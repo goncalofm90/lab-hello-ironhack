@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+
+
 .App-logo {
   height: 40vmin;
 }
@@ -19,4 +21,67 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.menubar {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between
+}
+
+.ironlogo {
+  padding-left: 10%;
+}
+
+.ironmenu {
+  padding-right: 10%;
+}
+
+
+
+
+.jumbotron {
+  margin-bottom: 5%;
+  text-align: left;
+  margin-right: 50%;
+}
+
+.jumbotron a {
+  text-decoration: none;
+  background-color: white;
+  color: #282c34;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 5%;
+}
+
+
+
+.jumbotron h1 {
+  font-size: 80px;
+}
+
+.jumbotron p {
+  font-weight: 100;
+  margin-bottom: 15%;
+}
+
+
+.components {
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  display: inline-flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.components p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.mini {
+  padding-top: 10%;
+  padding-left: 10%
 }
